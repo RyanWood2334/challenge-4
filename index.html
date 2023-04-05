@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>NFL QUIZ</title>
+
+</head>
+<body>
+    <header>
+        <h1 id="start-button-header">Start Quiz!</h1>
+        <button id="start-button">Begin</button>
+    </header>
+        
+
+       <div class="quiz-container">
+           <section id="timer-box">
+           <h2 id="time-display"></h2>
+           </section>
+
+             <section >
+             <h2 id="question"></h2>
+                </section>
+        
+        </section>
+        
+        <section id="answer-box">
+            <ol type="A">
+                <li><button id="answer-1"></button></li>
+                <li><button id="answer-2"></button></li>
+                <li><button id="answer-3"></button></li>
+                <li><button id="answer-4"></button></li>
+                
+            </ol>
+        </section>
+        
+        <section id="result-box">
+        
+            <h5 >Answered Correct: <span id="correct-guess-count"></span></h5>
+            <h5 >Answered Incorrect: <span id="incorrect-guess-count"></span></h5>
+        </section>
+        
+        <section >  
+            <form id="high-score-form" class="card">
+                <label for="initials">Initials:</label><br>
+                <input type="text" id="initials" ><br>
+                <label for="highscore">Highscores: </label><br>
+                <input type="text" id="highscore" ><br><br>
+                <button id="save-scores-btn" type="submit" value="Submit">Save Your Scores!</button>
+               
+            </form>  
+            <div id="past-score-sheet">
+                <h2>Past High Scores:</h2>
+                <ol id="saved-score-list">
+                
+                </ol>
+            </div>
+            </div>
+                
+        </section>
+            
+    </div>
+
+
+<script src="./script.js"></script>
+</body>
+</html>
+
+<!-- 
+container for high scores
+
+container for the timer
+
+make start button
+
+wrap quiz section in container
+break up quize container:
+container for the question
+container for the answers
+container for each answer
+
+
+
+
+
+container for the "you won!" and "time ran out"
+input for name/initials for high scores
+container for save button
+ -->
