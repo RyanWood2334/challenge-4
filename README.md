@@ -6,9 +6,9 @@ This website is a fully responsive quiz!! it uses CSS and HTML for the display, 
 
 ## Installation
 
-This website is available online at: https://ryanwood2334.github.io/challenge-4/
+This website is available online at: https://ryanwood2334.github.io/nfl-quiz/
 
-For development purposes, access can be found on this github repo: https://github.com/RyanWood2334/challenge-4.git
+For development purposes, access can be found on this github repo: https://github.com/RyanWood2334/nfl-quiz.git
 
 No dependencies in this project, and all relevant pictures are contained within the repo.
 
@@ -16,8 +16,8 @@ No dependencies in this project, and all relevant pictures are contained within 
 
 In your terminal/shell:
 
-Clone repo locally: git clone https://github.com/RyanWood2334/challenge-4.git
-Get into correct directory: cd challenge-4
+Clone repo locally: git clone https://github.com/RyanWood2334/nfl-quiz.git
+Get into correct directory: cd nfl-quiz
 Open in VS code: code .
 
 Hit the "Start Quiz!" button!
@@ -44,11 +44,12 @@ Thanks for the assistance with my learning process! As well Gandalf for this top
 
 “It is not despair, for despair is only for those who see the end beyond all doubt"
 
-    -Gandalf the Grey
+-Gandalf the Grey
+    
 
 "GWAAAAAAAAAAAAAAAAAAAAAAAAAAARGHHHHHHH"
 
-    -Godzilla
+-Godzilla
 
 License
 [This code is not mine, this license is unofficial]
